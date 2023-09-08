@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(SpriteRenderer))]
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private Transform _path;

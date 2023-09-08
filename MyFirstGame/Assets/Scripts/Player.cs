@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     private Animator _animator;
     private Vector2 _direction;
     private bool _onGround;
+    private float _groundCheckRadius;
 
     private void Start()
     {
@@ -22,6 +23,7 @@ public class Player : MonoBehaviour
         _render = GetComponent<SpriteRenderer>();
         _animator = GetComponent<Animator>();
         _groundCheck = transform.GetChild(0);
+        _groundCheckRadius = _groundCheck.GetComponent<CircleCollider2D>().radius;
     }
 
     private void Update()
@@ -38,6 +40,6 @@ public class Player : MonoBehaviour
         if (Input.GetKey(KeyCode.Space) && _onGround)
             _rigidbody.AddForce(Vector2.up * _jumpForce);
         
-        _onGround = Physics2D.OverlapCircle(_groundCheck.position, _groundCheck.GetComponent<CircleCollider2D>().radius, _groundLayer);
+        _onGround = Physics2D.OverlapCircle(_groundCheck.position, _groundCheckRadius, _groundLayer);
     }
 }
