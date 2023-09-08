@@ -1,0 +1,30 @@
+[api-updater (non-obsolete-error-filter)] 29.08.2023 19:56:43 : Starting C:/Users/casmo/Downloads/2020.3.42f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 3915,2429ms
+moved types parse time: 86ms
+candidates parse time : 1ms
+C# parse time         : 738ms
+candidates check time : 25ms
+console write time    : 16ms
+
+[api-updater (non-obsolete-error-filter)] 30.08.2023 3:02:21 : Starting C:/Users/casmo/Downloads/2020.3.42f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 1629,1793ms
+moved types parse time: 122ms
+candidates parse time : 1ms
+C# parse time         : 736ms
+candidates check time : 77ms
+console write time    : 15ms
+
+[api-updater (non-obsolete-error-filter)] 07.09.2023 2:28:03 : Starting C:/Users/casmo/Downloads/2020.3.42f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 8036,0298ms
+moved types parse time: 69ms
+candidates parse time : 1ms
+C# parse time         : 568ms
+candidates check time : 82ms
+console write time    : 0ms
+
